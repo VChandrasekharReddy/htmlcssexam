@@ -87,3 +87,15 @@
     }
     
 }
+.fifteen{
+    height: 40vh;
+    width: 40vw;
+    background-position: center;
+    background-size: cover;
+    background-image: url(./1109682.jpg);
+}
+.innerdiv{
+    font-size: 40px;
+    font-weight: 900;
+    padding: 10vh;
+}
