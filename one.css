@@ -35,3 +35,37 @@
     margin: 20px;
     max-width: 300px;
 }
+.five{
+    display: grid;
+    grid-template-columns: 200px 300px;
+    grid-template-rows:300px 300px ;
+    gap: 10px;
+
+}
+@media (max-width:600px) {
+    
+    .five{
+        grid-template-columns: 200px;
+        grid-template-rows: 200px 300px 200px 100px;
+    }
+}
+.six{
+    height: 200px;
+    width: 400px;
+    background-color: blue;
+    color: white;
+    transition: 0.3s;
+}
+.six:hover{
+    background-color: darkblue
+}
+.seven{
+    height: 50px;
+    width: 150px;
+    background-color: blue;
+    color: white;
+    transition: 0.3s;
+}
+.seven:hover{
+    scale: 1.2;
+}
