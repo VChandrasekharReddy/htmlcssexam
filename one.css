@@ -1,0 +1,37 @@
+
+
+.one{
+    list-style: none;
+
+}
+
+.one li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: blue;
+}
+.one li a:hover{
+    color: red;
+}
+.one li a:focus{
+    color: green;
+}
+.twotitle{
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 3px #000000;
+    justify-content: baseline;
+}
+.twopara{
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+
+
+/* for  question 3  */
+.card{
+    border: 1px solid gray;
+    padding: 20px;
+    margin: 20px;
+    max-width: 300px;
+}
